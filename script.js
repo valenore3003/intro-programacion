@@ -1,6 +1,6 @@
 const nombre= "valentina"
 let edad= 25
-const saludo= `Hola mi nombre es ${nombre}, tengo ${edad} años`
+const saludo = `Hola mi nombre es ${nombre}, tengo ${edad} años`
 console.log(nombre)
 console.log(edad)
 console.log(saludo)
@@ -16,3 +16,7 @@ return `Hola ${nombre} retonrno`
 saludar("Valentina")
 console.log(saludar("Valentina"))
 const misaludar=saludar("Valentina")
+function mifuncion(visitas) {
+    
+}
+

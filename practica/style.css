@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.grilla {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #222;
+	gap: 0.5rem;
+}
+
+.fila {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+}
+
+.celda {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: min(23vw, 10rem);
+	width: min(200px, 30vw);
+	height: min(200px, 30vw);
+	background-color: white;
+	user-select: none;
+}
